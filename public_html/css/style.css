@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(114, 167, 123);
+}
+
+.login_reg_page {
+  width: 400px;
+  padding: 3% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background-color: rgb(53, 109, 126, 0.7);
+  width: 350px;
+  height: 500px;
+  margin: 0 auto 5px;
+  padding: 45px;
+  align-items: center;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.form .page {
+  width: 310px;
+  margin: auto;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.form input {
+  font-family: Arial, Helvetica, sans-serif;
+  outline: 1;
+  background-color: lightgray;
+  width: 112%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.submit {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: rgb(107, 206, 115);
+  width: 112%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  color: white;
+  box-sizing: border-box;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  border: 0;
+  outline: none;
+  padding: 10px 30px;
+  margin: 0 0 15px;
+  position: relative;
+  width: 49%;
+  background-color: rgb(107, 206, 115);
+  color: white;
+  box-sizing: border-box;
+}
+
+/*#bt {
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin: 0 0 15px;
+  width: 49%;
+  height: 20%;
+  background: linear-gradient(to right, blue, red);
+  border-radius: 30px;
+  transition: 0.5s;
+}*/
+
+.form .message {
+  margin: 10px 2px 0;
+  color: white;
+  font-size: 16px;
+}
+
+.form a {
+  font-family: Arial, Helvetica, sans-serif;
+  outline: 0;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#register {
+  left: 480px;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: rgb(124, 243, 134);
+}
+
+#admin_login {
+  display: none;
+}
+
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+

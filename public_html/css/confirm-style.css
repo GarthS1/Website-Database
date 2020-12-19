@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(114, 167, 123);
+}
+
+.shopping_page {
+  width: 600px;
+  margin: auto;
+}
+
+.box {
+  height: 250px;
+  max-width: 500px;
+  background-color: rgb(53, 109, 126, 0.7);
+  margin: auto;
+  align-items: auto;
+}
+
+.header {
+  position: relative;
+  width: 90%;
+  height: 80px;
+  margin: 50px auto 20px;
+  padding: 5px 5px 10px;
+  outline: none;
+  background-color: rgb(107, 206, 115);
+  box-sizing: border-box;
+  top: 20px;
+}
+
+h1 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 18px auto auto;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 32px;
+    color: white;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin: 50px 25px 50px;
+  top: 90px;
+}
